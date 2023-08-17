@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1.title {
+      background-color: #222;
+      color: white;
+      padding: 10px;
+  }
+  
+  form {
+      display: flex;
+      justify-content: center; /* Centraliza o formulário horizontalmente */
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #222;
+      border-radius: 20px;
+  }
+  
+  form input {
+      padding: 5px;
+      border: none;
+      outline: none;
+      flex: 1;
+  }
+  
+  form button {
+      padding: 5px 10px;
+      background-color: #3700ff;
+      border: none;
+      color: white;
+      border-radius: 10px;
+  }
+  
+  .lista {
+      display: flex; /* Exibe os itens lado a lado */
+      justify-content: center; /* Centraliza a lista horizontalmente */
+      flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
+      margin: 15px;
+      padding: 5px;
+  }
+  
+  .item {
+      text-align: center;
+      padding: 10px;
+      border: 2px solid #222;
+      border-radius: 5px;
+      margin: 5px; /* Adiciona um espaçamento entre os itens */
+      transition: 0.5s;
+      box-sizing: border-box; /* Inclui borda e padding no tamanho total do elemento */
+  }
+  
+  .item:hover {
+      text-align: center;
+      padding: 10px;
+      border: 2px solid #aeaeae;
+      background-color: #2222223d;
+      border-radius: 5px;
+      transform: scale(1.02);
+      transition: 0.5s;
+  }
